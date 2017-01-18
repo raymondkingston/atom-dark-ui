@@ -1,10 +1,10 @@
 {
-  "name": "atom-dark-ui",
+  "name": "incandenza-dark-ui",
   "theme": "ui",
-  "version": "0.53.0",
+  "version": "0.0.1",
   "description": "A dark UI theme for Atom",
   "license": "MIT",
-  "repository": "https://github.com/atom/atom-dark-ui",
+  "repository": "https://github.com/raymondkingston/incandenza-dark-ui",
   "engines": {
     "atom": ">0.40.0"
   }
