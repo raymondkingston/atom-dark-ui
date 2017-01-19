@@ -1,21 +1,38 @@
 // Set Color Variables
 
 // neutrals
-@white:         #ffffff;
 @twine:         #d6d6d6;
 @smokey:        #828280;
 @dark-gray:     #555555;
 @slate:         #2e2e2e;
 
-// blues
-@blue-light:    #b9cad6;
-@blue-base:     #6a99bb;
-@blue-dark:     #374752;
+// reds
+@red-light:     lighten(@red-base, 15%);
+@red-base:      #cf523f;
+@red-dark:      darken(@red-base, 10%);
+
+// oranges
+@orange-light:  lighten(@orange-bright, 20%);
+@orange-bright: #ff982d;
+@orange-base:   #d3701f;
+@orange-dark:   darken(@orange-bright, 30%);
+
+// yellows
+@wheat:         lighten(@latte, 20%);
+@latte:         #e5b567;
 
 // greens
-@green-light:   #c7d9aa;
+@green-light:   lighten(@green-base, 17%);
 @green-base:    #9fbe6e;
-@green-dark:    darken(@green-base, 20%);
+@green-dark:    darken(@green-base, 15%);
 
-// rust
-@rust-base:     #d3701f;
+// blues
+@blue-light:    lighten(@blue-base, 20%);
+@blue-base:     #6a99bb;
+@blue-dark:     darken(@blue-base, 10%);
+@blue-darkest:  #374752;
+
+// purples
+@purple-light:  lighten(@purple-dark, 35%);
+@purple-base:   #b294bb;
+@purple-dark:   #90516b;

@@ -1,6 +1,6 @@
 # Incandenza Dark UI theme
 
-A dark UI theme for Atom.
+A dark matte UI theme for Atom.
 
 This theme is modified from the default Atom Dark UI theme published with Atom
 and can be activated by going to the _Themes_ section in the Settings view
