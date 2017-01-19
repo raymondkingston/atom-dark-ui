@@ -1,3 +1,5 @@
+@import "ui-colors.less";
+
 // Colors
 
 @text-color:            @twine;
@@ -10,18 +12,18 @@
 @text-color-warning:    @orange-light;
 @text-color-error:      @red-light;
 
-@text-color-ignored:    @text-color-subtle;
-@text-color-added:      @text-color-success;
-@text-color-renamed:    @text-color-info;
-@text-color-modified:   @text-color-warning;
-@text-color-removed:    @text-color-error;
+@text-color-ignored:    @dark-gray;
+@text-color-added:      @green-base;
+@text-color-renamed:    @blue-dark;
+@text-color-modified:   @latte;
+@text-color-removed:    @red-dark;
 
 @background-color-info:       @blue-dark;
 @background-color-success:    @green-dark;
 @background-color-warning:    @orange-dark;
 @background-color-error:      @red-dark;
 @background-color-highlight:  rgba(255, 255, 255, 0.07);
-@background-color-selected:   @blue-base;
+@background-color-selected:   @blue-darkest;
 
 @app-background-color:        @slate;
 
@@ -37,7 +39,7 @@
 @tool-panel-background-color:       darken(@slate, 3%);
 @tool-panel-border-color:           @base-border-color;
 
-@inset-panel-background-color:      darken(@app-background-color, 5%);
+@inset-panel-background-color:      darken(@app-background-color, 6%);
 @inset-panel-border-color:          @base-border-color;
 
 @panel-heading-background-color:    @dark-gray;
@@ -60,7 +62,7 @@
 @tree-view-background-color:  darken(@app-background-color, 4%);
 @tree-view-border-color:      @tool-panel-border-color;
 
-@scrollbar-background-color:  @app-background-color; // Needs to be opaque -> atom/atom/issues/4578
+@scrollbar-background-color:  darken(@app-background-color, 4%); // Needs to be opaque -> atom/atom/issues/4578
 @scrollbar-color:             rgba(85, 85, 85, 0.5);
 
 @ui-site-color-1:             @background-color-success;
@@ -72,18 +74,18 @@
 
 // Sizes
 
-@font-size:       11px;
-@input-font-size: 14px;
+@font-size:       10px;
+@input-font-size: 13px;
 
 @disclosure-arrow-size: 12px;
 
 @component-padding:       8px;
 @component-icon-padding:  3px;
 @component-icon-size:     13px;
-@component-line-height:   2.25;
+@component-line-height:   22px;
 @component-border-radius: 2px;
 
-@tab-height: 18px;
+@tab-height: 34px;
 
 
 // Other
